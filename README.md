@@ -1,79 +1,73 @@
-🤖 AI Blind Assistance System
-📌 Overview
+# 🤖 AI Blind Assistance
 
-The AI Blind Assistance System is designed to help visually impaired individuals by understanding their surroundings in real time.
-It detects and tracks objects in the environment and provides audio feedback, enabling users to navigate and interact with the world more independently.
+## 📌 About
+AI Blind Assistance is a real-time AI system designed to help visually impaired individuals by detecting objects and text in their surroundings and providing multilingual audio output.
 
-🎯 Key Features
+---
 
-📷 Real-time object detection using camera input
+## 🎯 Features
+- Real-time object detection using YOLO
+- Live object tracking from camera input
+- Text recognition using OCR
+- Multilingual audio feedback using text-to-speech
+- Streamlit-based user interface
 
-🔍 Text recognition using OCR
+---
 
-🗣️ Audio output for detected objects and text
+## 🛠️ Technologies Used
+- Python  
+- YOLO  
+- OpenCV  
+- Tesseract OCR  
+- gTTS (Google Text-to-Speech)  
+- BLIP Processor  
+- Streamlit  
 
-🌐 Simple and interactive Streamlit-based interface
+---
 
-♿ Designed with accessibility as the primary focus
+## ⚙️ Working
+1. Captures real-time video input from the camera  
+2. Detects and tracks objects using YOLO  
+3. Extracts text using OCR  
+4. Processes images using BLIP for better scene understanding  
+5. Converts detected information into multilingual audio output  
 
-🛠️ Tech Stack
+---
 
-Python
+## 📥 Input
+- Real-time camera feed
 
-OpenCV – Real-time image processing
+---
 
-Tesseract OCR – Text recognition
+## 📤 Output
+- Multilingual audio feedback describing detected objects and text
 
-gTTS (Google Text-to-Speech) – Audio output
+---
 
-BLIP Processor – Image understanding
+## 🌍 Use Case
+- Assists visually impaired individuals in understanding their surroundings  
+- Enables independent navigation using audio guidance  
+- Improves accessibility through AI-powered perception  
 
-Streamlit – Web-based UI
+---
 
-⚙️ How It Works
-
-Captures real-time video input from the camera
-
-Processes frames using computer vision models
-
-Detects objects and reads visible text
-
-Converts detected information into speech output
-
-Delivers audio feedback to the user instantly
-
-▶️ How to Run the Project
-# Clone the repository
+## ▶️ How to Run
 git clone https://github.com/SaiRaghavTelugu/AI-Blind-Assistance.git
-
-# Navigate to project directory
 cd AI-Blind-Assistance
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the Streamlit app
 streamlit run app.py
 
-📡 Input Type
+---
+## 🚀 Future Enhancements
+- Add distance estimation for nearby obstacles  
+- Improve real-time performance and accuracy of YOLO models  
+- Integrate with wearable or mobile devices  
+- Add contextual scene summarization  
 
-Real-time camera input
+---
 
-🌍 Real-World Impact
-
-This project aims to improve independence and situational awareness for visually impaired individuals by providing audio-based environmental feedback using AI and computer vision.
-
-🚀 Future Enhancements
-
-Obstacle distance estimation
-
-Multi-language voice support
-
-Wearable device integration
-
-Improved object classification accuracy
-
-👨‍💻 Author
-
-Sai Raghav Telugu
-4th Year CSE | AI/ML Enthusiast
+## 👨‍💻 Author
+**Sai Raghav Telugu**  
+4th Year Computer Science Engineering  
+ICFAI Foundation for Higher Education, Hyderabad  
+Software Engineering | AI / ML Enthusiast
