@@ -1,96 +1,79 @@
-# 👁️‍🗨️ Blind Assistance AI
+🤖 AI Blind Assistance System
+📌 Overview
 
-Welcome to **Blind Assistance AI**!  
-This Python app helps visually impaired users by describing scenes in real-time using your webcam, translating the description into your chosen language, and reading it aloud.  
-Accessible, simple, and powerful!
+The AI Blind Assistance System is designed to help visually impaired individuals by understanding their surroundings in real time.
+It detects and tracks objects in the environment and provides audio feedback, enabling users to navigate and interact with the world more independently.
 
----
+🎯 Key Features
 
-## ✨ Features
+📷 Real-time object detection using camera input
 
-- 📸 **Real-time Image Capture:** Snap images directly from your webcam.
-- 📝 **Scene Description:** Get natural language captions using the BLIP model.
-- 🌐 **Language Translation:** Instantly translate descriptions to **English**, **Telugu**, or **Hindi**.
-- 🔊 **Text-to-Speech:** Hear the translated description with a single click.
-- 🖥️ **User-Friendly Interface:** Simple GUI built with Tkinter.
+🔍 Text recognition using OCR
 
----
+🗣️ Audio output for detected objects and text
 
-## 🚀 Quick Start
+🌐 Simple and interactive Streamlit-based interface
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/BLIND_ASSISTANCE_AI.git
-   cd BLIND_ASSISTANCE_AI
-   ```
+♿ Designed with accessibility as the primary focus
 
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+🛠️ Tech Stack
 
-3. **Run the app:**
-   ```bash
-   python main_ui.py
-   ```
+Python
 
----
+OpenCV – Real-time image processing
 
-## 🕹️ How to Use
+Tesseract OCR – Text recognition
 
-1. **Click** `Capture` to take a real-time image using your webcam.
-2. **Choose** your preferred language from the dropdown.
-3. **Click** `Process Image` to generate, translate, and hear the scene description.
-4. **Listen** as the app reads out the description for you!
+gTTS (Google Text-to-Speech) – Audio output
 
----
+BLIP Processor – Image understanding
 
-## 🗂️ Project Structure
+Streamlit – Web-based UI
 
-```
-BLIND_ASSISTANCE_AI/
-├── main_ui.py
-├── scene_description.py
-├── translation_tts_module.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-```
+⚙️ How It Works
 
----
+Captures real-time video input from the camera
 
-## 🧰 Requirements
+Processes frames using computer vision models
 
-- Python 3.8+
-- torch
-- torchvision
-- transformers
-- pillow
-- gtts
-- deep-translator
-- opencv-python
-- tkinter (usually included with Python)
+Detects objects and reads visible text
 
-Install all dependencies with:
-```bash
+Converts detected information into speech output
+
+Delivers audio feedback to the user instantly
+
+▶️ How to Run the Project
+# Clone the repository
+git clone https://github.com/SaiRaghavTelugu/AI-Blind-Assistance.git
+
+# Navigate to project directory
+cd AI-Blind-Assistance
+
+# Install dependencies
 pip install -r requirements.txt
-```
 
----
+# Run the Streamlit app
+streamlit run app.py
 
-## 💡 Notes
+📡 Input Type
 
-- The BLIP model and other dependencies will download automatically on first run.
-- Make sure your webcam is connected and accessible.
-- On Windows, audio output uses the default player.
+Real-time camera input
 
----
+🌍 Real-World Impact
 
-## 📜 License
+This project aims to improve independence and situational awareness for visually impaired individuals by providing audio-based environmental feedback using AI and computer vision.
 
-This project is for educational and research purposes.
+🚀 Future Enhancements
 
----
+Obstacle distance estimation
 
-**Enjoy using Blind Assistance AI! If you like it, ⭐ star the repo and share your
+Multi-language voice support
 
+Wearable device integration
+
+Improved object classification accuracy
+
+👨‍💻 Author
+
+Sai Raghav Telugu
+4th Year CSE | AI/ML Enthusiast
