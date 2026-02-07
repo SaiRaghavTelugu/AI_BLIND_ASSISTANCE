@@ -50,13 +50,13 @@ AI Blind Assistance is a real-time AI system designed to help visually impaired 
 - Improves accessibility through AI-powered perception  
 
 ---
-
+```bash
 ## ▶️ How to Run
 git clone https://github.com/SaiRaghavTelugu/AI-Blind-Assistance.git
 cd AI-Blind-Assistance
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 ---
 ## 🚀 Future Enhancements
 - Add distance estimation for nearby obstacles  
